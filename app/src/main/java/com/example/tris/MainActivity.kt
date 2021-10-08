@@ -11,8 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private val buttons = Array(3) {
         arrayOfNulls<Button>(
-            3
-        )
+            3)
     }
     private var player1Turn = true
     private var roundCount = 0
